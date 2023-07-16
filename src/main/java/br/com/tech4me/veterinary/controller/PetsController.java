@@ -22,7 +22,7 @@ import br.com.tech4me.veterinary.shared.PetDto;
 import br.com.tech4me.veterinary.shared.PetListagemDto;
 
 @RestController
-@RequestMapping("/Dogs")
+@RequestMapping("Dogs")
 
 public class PetsController {
     @Autowired
